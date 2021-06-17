@@ -31,9 +31,25 @@ h3{
     margin: 0px 0px 10px 0px;
 }
 
-.hero {
-    background: #d22b1f;
+
+/* Filter Bar */
+.filters {
+
 }
+
+.searchbar {
+
+}
+
+.search-icon{
+    color:#000000;
+    background-color: #F2F2F2;
+    align-items: center;
+    height: 51px;
+    width: 51px;
+}
+
+
 
 .wrapper{
     display: flex;
@@ -70,32 +86,28 @@ i{
     margin: 0px 0px 5px 0px;
     font-size: 12px;
 }
-
 .card{ 
     background: white;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 12px;
 }
-
 .card h4{
     font-weight: bold;
     font-size: 14px;
 }
-
 .card h4, p{
     margin: 0px;
     padding: 3px 15px;
 }
-
 .card img{
     object-fit: cover;
 }
+
 /* Accommodations */
 .acommodation{
     flex-flow: column wrap;
 }
-
 .acommodation img{
     padding: 5px;
     width: 236px;
@@ -110,12 +122,10 @@ i{
     justify-content: space-between;
     margin: 10px -5px;
 }
-
 .popular{
     display:flex;
     min-width: 342px;
 }
-
 .popular img{
     padding: 5px;
     width: 126px;
